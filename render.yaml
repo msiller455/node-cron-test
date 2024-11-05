@@ -1,5 +1,0 @@
-service:
-  - type: web
-    name: node-cron-test
-    env: node
-    startCommand: node main.js

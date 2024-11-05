@@ -39,10 +39,3 @@ cron.schedule('0 7 5 * *', () => {
     }
 });
 
-// cron.schedule('*/5 * * * * *', () => {
-//     console.log('running every 5 seconds')
-// });
-
-// cron.schedule('*/15 * * * * *', () => {
-//     console.log('running every 15 seconds')
-// })

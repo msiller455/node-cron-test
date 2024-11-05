@@ -6,6 +6,10 @@ const logSchema = new Schema({
         type: String,
         required: true,
         enum: ['daily', 'weekly', 'monthly'],
+        expireAt: {
+          type: Date,
+          default: Date.now() + 35 * 24 * 60 * 60 * 1000
+        }
     }
 }, {
     timestamps: true
